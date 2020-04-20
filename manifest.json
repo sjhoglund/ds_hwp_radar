@@ -1,0 +1,25 @@
+{
+    "name": "Radar",
+    "organization": "Deloitte",
+    "description": "Radar chart using chartjs",
+    "logoUrl": "https://url",
+    "organizationUrl": "https://url",
+    "supportUrl": "https://url",
+    "privacyPolicyUrl": "https://url",
+    "termsOfServiceUrl": "https://url",
+    "packageUrl": "https://url",
+    "devMode": true,
+    "components": [
+      {
+        "id": "radar",
+        "name": "Radar",
+        "description": "Radar Visualization",
+        "iconUrl": "https://storage.cloud.google.com/cus_comm_viz/radar/radar.png",
+        "resource": {
+            "js": "gs://cus_comm_viz/radar/radar.js",
+            "config": "gs://cus_comm_viz/radar/radar.json",
+            "css": "gs://cus_comm_viz/radar/radar.css"
+        }
+      }
+    ]
+}
